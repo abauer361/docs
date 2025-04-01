@@ -18,6 +18,8 @@
             "pages": [
               "introduction",
               "quickstart",
+              "realtime-api-overview",
+              "dexs",
               "development",
               "testPage"
             ]
