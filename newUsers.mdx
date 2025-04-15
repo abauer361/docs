@@ -1,0 +1,119 @@
+
+# 🧠 Getting Started with Mintlify Docs (No Tech Skills Needed!)
+
+## ✅ What You’ll Need
+
+- **NodeJS**: A tool that helps run Mintlify. [Download NodeJS](https://nodejs.org/)
+- **Code Editor**: [Download VSCode](https://code.visualstudio.com/) or [Cursor](https://www.cursor.so/)
+- **GitHub Account**: Sign up at [github.com](https://github.com). Use a name-based username (e.g. `davidaviles`)
+- **Git**: Helps manage files. Install it by running this in Terminal:
+
+  ```bash
+  npm install git
+  ```
+
+- **Terminal**: A built-in app on every computer. (Code editors like VSCode also include a terminal.)
+
+---
+
+## 🚀 First Time Setup
+
+### 1. Install Mintlify CLI
+
+```bash
+npm i mintlify -g
+```
+
+> If already installed, update it with:
+```bash
+npm i mintlify@latest -g
+```
+
+### 2. Get Access to Mintlify GitHub
+
+- Create your GitHub account.
+- Ask **Han** or **Hanbee** to add you to the Mintlify GitHub organization.
+
+### 3. Clone the Docs Repo
+
+In Terminal:
+
+```bash
+cd Documents
+git clone https://github.com/mintlify/docs.git
+cd docs
+mintlify dev
+```
+
+This will:
+- Save the Mintlify docs to your computer
+- Open a live preview in your browser
+
+---
+
+## 🛠 Making Updates
+
+### 1. Check if You Already Have the Docs Repo
+
+```bash
+cd Documents
+cd docs
+git status
+```
+
+If your files aren’t up to date, run:
+
+```bash
+git pull
+```
+
+### 2. Create a Branch to Make Changes
+
+```bash
+git checkout -b your-branch-name
+```
+
+> You’ll make changes on this branch without affecting the main docs.
+
+### 3. Start the Live Preview
+
+```bash
+mintlify dev
+```
+
+A browser window will open so you can see your changes live.
+
+---
+
+## 🧾 Common Terminal Commands (Plain English)
+
+| Command            | What It Does                          |
+|--------------------|----------------------------------------|
+| `cd folder-name`   | Go into a folder                       |
+| `cd ..`            | Go back one folder                     |
+| `cd ~`             | Go to your home directory              |
+| `ls`               | Show files/folders in current folder   |
+| `mkdir folder-name`| Create a new folder                    |
+| `touch file.txt`   | Create a new empty file                |
+| `rm file.txt`      | Delete a file                          |
+
+---
+
+## 💡 Git Commands (For Saving & Sharing Changes)
+
+| Command                              | What It Does                     |
+|--------------------------------------|----------------------------------|
+| `git clone repo-link`               | Download files from GitHub       |
+| `git add .`                         | Stage all your changes           |
+| `git commit -m "Your message"`      | Save your work with a message    |
+| `git push origin your-branch-name` | Upload your work to GitHub       |
+
+---
+
+## 🧠 Terms Made Simple
+
+- **Directory** = A folder  
+- **Local** = On your computer  
+- **Root** = The base folder of your project (like the trunk of a tree)
+
+---
